@@ -1,0 +1,94 @@
+
+.login{
+    background:linear-gradient(
+        rgba(255, 0, 0, 0.45), 
+        rgba(255, 0, 0, 0.45)
+      ), url("../images/background.jpg") ;
+      height: 100vh;
+      background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.login form{
+    background-color: rgba(0, 0, 0, 0.45);
+/*     padding: 16px; */
+    width: 57%;
+    height: 53%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.login form h2{
+    color: aliceblue;
+}
+.login form .input-group{
+    width: 70%;
+}
+.all-products{
+    margin: 20px 0;
+}
+.all-products .card{
+    margin: 10px !important;
+    text-align: center;
+}
+.all-products .card-img-top{
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+  
+}
+.cart-section .form-control{
+    display: inline-block !important;
+    width: 80px;
+}
+.cart-section h2{
+    margin-top: 7rem !important
+}
+#carousel .carousel-item img{
+    height: 600px !important;
+}
+
+
+.navbar .navbar-brand,
+.navbar .navbar-nav .nav-link {
+  color: #9fa4a7;
+}
+.navbar .navbar-brand:hover,
+.navbar .navbar-nav .nav-link:hover{
+    color: #ffffff;
+    border-radius: 5px;
+
+}
+
+ .summary h3{
+	text-align: center;
+	font-size: 1.3em;
+	font-weight: 600;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.summary{
+	border-top: 2px solid #5ea4f3;
+    background-color: #f7fbff;
+}
+.social-media a{
+    font-size: 50px;
+}
+.social-media a i{
+    color: rgb(0, 0, 0);
+}
+.social-media a:hover i{
+    color: rgb(126, 24, 126);
+    transition: all 1s  ease-in-out;
+}
+.iPrice{
+    font-weight: bold;
+    margin-left: 4px;
+}
+
+
+
