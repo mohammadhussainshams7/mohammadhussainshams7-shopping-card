@@ -16,19 +16,19 @@ export default function changeCartCount() {
       loginButton.innerHTML = localStorage.getItem("dataUser");
       loginButton.addEventListener("click", () => {
         localStorage.removeItem("dataUser");
-        window.location.replace("login.html");
+        window.location.replace("/shopping-card/login.html");
       });
     } else {
       loginButton.innerHTML = "Login";
       loginButton.addEventListener("click", () => {
-        window.location.replace("login.html");
+        window.location.replace("/shopping-card/login.html");
       });
     }
   }
 
   export function ifINotHaveLogin() {
     if (!localStorage.getItem("dataUser")) {
-      window.location.replace("login.html");
+      window.location.replace("/shopping-card/login.html");
     }
   }
 
