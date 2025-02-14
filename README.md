@@ -20,7 +20,3 @@ cd mohammadhussainshams7-shopping-card
 ### Instructions:
 1. **Clone the repository** to your local machine.
 2. **Open the `README.md` file**, paste the contents above, and adjust any parts like **Screenshots** if you have one.
-
-You can replace or edit any section to make it more specific to your project. This structure will help users understand your project and get it running quickly. Let me know if you need any modifications!
-
-
