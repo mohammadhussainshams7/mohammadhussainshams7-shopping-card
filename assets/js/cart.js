@@ -14,7 +14,7 @@ function CartDisplay() {
     const img = document.createElement("img");
     img.classList.add("img-fluid", "m-5");
     img.width = "50";
-    img.src = window.location.origin + "/" + localStorageData[product].imageSrc;
+    img.src = window.location.origin + "/shopping-card/" + localStorageData[product].imageSrc;
 
     const nameInSpan = document.createElement("span");
     nameInSpan.innerText = `${product}`;
