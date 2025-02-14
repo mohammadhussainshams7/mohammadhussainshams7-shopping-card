@@ -14,7 +14,7 @@ function login() {
           /* Save In local Storage */
           localStorage.setItem("dataUser", username.value);
           // replace current URL with newURL
-          window.location.replace("index.html");
+          window.location.replace("/shopping-card/");
           break;
         } else {
           errorLogin.classList.remove("d-none");
@@ -25,7 +25,7 @@ function login() {
 
   function ifIHaveLogin() {
     if (localStorage.getItem("dataUser")) {
-      window.location.replace("index.html");
+      window.location.replace("/shopping-card/");
     }
   }
 
