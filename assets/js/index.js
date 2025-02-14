@@ -20,7 +20,7 @@ function createProductCard() {
         imgContainer.classList.add('img-container');
         // Create the image element
         const img = document.createElement('img');
-        img.src = products[product].imageSrc;
+        img.src = "shopping-card"+products[product].imageSrc;
         img.classList.add('card-img-top');
         img.alt = products[product].title;
         img.width = "30"
