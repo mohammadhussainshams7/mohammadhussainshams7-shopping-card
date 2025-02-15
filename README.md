@@ -9,7 +9,10 @@ This is a simple shopping cart application built using **HTML**, **CSS**, and **
 - Remove items from the cart.
 - View the total price of the cart.
 ## ScreenShot
-![screen 1]([http://url/to/img.png](https://github.com/mohammadhussainshams7/shopping-card/blob/main/screencapture-127-0-0-1-5500-cart-html-2025-02-15-12_16_35.png)
+
+![screen 1](screencapture-127-0-0-1-5500-index-html-2025-02-15-12_15_50.png)
+![screen 2](screencapture-127-0-0-1-5500-cart-html-2025-02-15-12_16_35.png)
+![screen 3](screencapture-127-0-0-1-5500-login-html-2025-02-15-12_16_48.png)
 
 ## Installation
 
