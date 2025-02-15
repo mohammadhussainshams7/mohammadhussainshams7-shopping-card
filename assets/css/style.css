@@ -32,13 +32,30 @@
     margin: 20px 0;
 }
 .all-products .card{
-    margin: 10px !important;
+    margin: 5px !important;
     text-align: center;
+    border: none;
+    background-color: hsl(26.4deg 100% 95.1%);
+    padding: 5px;
+    transition: all 1s ease-in;
+    color: rgba(0, 0, 0, 0.438);
+
+}
+.all-products .card:hover{
+ /*    background-color: hsl(0, 17%, 32%); */
+   /*  color: #f7fbff; */
+   color: rgba(0, 0, 0, 0.767);
+
+}
+.all-products   .btn-primary{
+    background-color:hsl(2.84deg 79.34% 58.24%);
+    border: none;
+
 }
 .all-products .card-img-top{
     width: 100%;
     height: 300px;
-    object-fit: contain;
+    object-fit: inherit;
   
 }
 .cart-section .form-control{
@@ -53,7 +70,7 @@
 }
 
 
-.navbar .navbar-brand,
+/* .navbar .navbar-brand,
 .navbar .navbar-nav .nav-link {
   color: #9fa4a7;
 }
@@ -62,7 +79,7 @@
     color: #ffffff;
     border-radius: 5px;
 
-}
+} */
 
  .summary h3{
 	text-align: center;
@@ -89,11 +106,8 @@
     font-weight: bold;
     margin-left: 4px;
 }
-.navbar-toggler{
-    color: #f7fbff !important;
-    background-color: #ededed !important;
+/* .navbar-toggler{
+    background-color: #7e7777 !important;
 }
-
-
-
+ */
 
